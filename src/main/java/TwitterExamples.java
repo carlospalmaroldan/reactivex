@@ -1,11 +1,23 @@
 
 import twitter4j.*;
+import twitter4j.conf.ConfigurationBuilder;
 
 import java.util.concurrent.TimeUnit;
 
-public class Twitter {
+public class TwitterExamples {
 
     private static  void listen() throws InterruptedException{
+
+        ConfigurationBuilder cb = new ConfigurationBuilder();
+        cb.setDebugEnabled(true)
+            .setOAuthConsumerKey("*********************")
+            .setOAuthConsumerSecret("******************************************")
+            .setOAuthAccessToken("**************************************************")
+            .setOAuthAccessTokenSecret("******************************************");
+        TwitterFactory tf = new TwitterFactory(cb.build());
+        Twitter twitter = tf.getInstance();
+        TwitterFactory.getSingleton()
+
         TwitterStream twitterStream = new TwitterStreamFactory().getInstance();
         twitterStream.addListener(new twitter4j.StatusListener() {
 
