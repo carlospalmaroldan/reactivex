@@ -1,0 +1,4 @@
+
+Of the suggestions proposed, zip() actually combines observable results with each other, which may or may not be what is wanted, but was not asked in the question. In the question, all that was wanted was execution of each of the operations, either one-by-one or in parallel (which was not specified, but linked Bolts example was about parallel execution). Also, zip() will complete immediately when any of the observables complete, so it's in violation of the requirements.
+
+For parallel execution of Observables, flatMap() presented in the other answer is fine, but merge() would be more straight-forward. Note that merge will exit on error of any of the Observables, if you rather postpone the exit until all observables have finished, you should be looking at mergeDelayError().

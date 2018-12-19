@@ -16,7 +16,6 @@ public final class TweetObservable {
                             }
                         });
                             FilterQuery query=new FilterQuery();
-                            query.language(new String[]{"en"});
                             query.track(searchKeywords);
                             twitterStream.filter(query);
                     }
