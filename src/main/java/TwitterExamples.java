@@ -12,7 +12,7 @@ import java.util.function.Consumer;
 public class TwitterExamples {
 
 
-    private static TwitterStream configureStream(){ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
+    public static TwitterStream configureStream(){ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
         configurationBuilder.setDebugEnabled(true)
             .setOAuthConsumerKey("vkmERHUXKaUJwL1g3lWamaiyM")
             .setOAuthConsumerSecret("Kz0hkVeDqafSoTunQmLqTqfTDDprrhRBA8kyvrRSQhe2dcUHA4")
@@ -123,7 +123,8 @@ public class TwitterExamples {
                     exception.accept(e);
                 }
             });
-        twitterStream.sample();//this creates another thread that gets the tweets for us
+        //this creates another thread that gets the tweets for us, that means creating a HTTP connection
+        twitterStream.sample();
         TimeUnit.SECONDS.sleep(10);
         twitterStream.shutdown();
     }
@@ -132,6 +133,6 @@ public class TwitterExamples {
         TwitterStream twitterStream=configureStream();
         BigInteger count = BigInteger.ZERO;
         consume(twitterStream,x->System.out.println(x),x->System.out.println(x));
-        consume(twitterStream,x->{ count=count.add(BigInteger.ONE);},x->System.out.println(x));
+
     }
 }
