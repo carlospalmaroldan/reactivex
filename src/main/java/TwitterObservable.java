@@ -45,9 +45,10 @@ public class TwitterObservable {
                }
            };
             statusObservable.subscribe(subscriber);
+            Long start=System.currentTimeMillis();
             //Even though we were supposed to receive 10 seconds of updates, we choose to unsubscribe
             TimeUnit.SECONDS.sleep(5);
-
+            System.out.println(System.currentTimeMillis()-start);
             subscriber.unsubscribe();
         }
 }

@@ -8,7 +8,6 @@ public class TwitterSubject {
     //or open it when a subscriber subscribes.
     private final PublishSubject<Status> publishableSubject= PublishSubject.create();
 
-
     public Observable<Status> observe(){
         return publishableSubject;
     }

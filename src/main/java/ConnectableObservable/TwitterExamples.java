@@ -1,16 +1,11 @@
+package ConnectableObservable;
 
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
-import rx.Subscriber;
-import rx.functions.Action2;
-import sun.nio.ch.ThreadPool;
+import rx.Observable;
 import twitter4j.*;
-import twitter4j.auth.RequestToken;
 import twitter4j.conf.Configuration;
 import twitter4j.conf.ConfigurationBuilder;
 
 import java.math.BigInteger;
-import rx.Observable;
-
 import java.util.ArrayList;
 import java.util.concurrent.*;
 import java.util.function.Consumer;
@@ -31,7 +26,7 @@ public class TwitterExamples {
     }
 
     private static  void print(TwitterStream twitterStream) throws InterruptedException,TwitterException{
-     twitterStream.addListener(new twitter4j.StatusListener() {
+     twitterStream.addListener(new StatusListener() {
 
             public void onStatus(Status status) {
                 System.out.println("Status: {}"+ status);

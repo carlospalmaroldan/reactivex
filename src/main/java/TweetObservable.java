@@ -8,7 +8,7 @@ public final class TweetObservable {
                     subscriber->{
                             final TwitterStream twitterStream=new TwitterStreamFactory().getInstance();
                             twitterStream.addListener(new StatusAdapter(){
-                                public void onStatus(Status status){
+                            public void onStatus(Status status){
                                     subscriber.onNext(status);
                             }
                             public void onException(Exception ex){
