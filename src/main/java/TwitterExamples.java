@@ -19,7 +19,7 @@ public class TwitterExamples {
 
 
     public static TwitterStream configureStream(){ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
-        configurationBuilder.setDebugEnabled(true)
+        configurationBuilder.setDebugEnabled(false)
             .setOAuthConsumerKey("vkmERHUXKaUJwL1g3lWamaiyM")
             .setOAuthConsumerSecret("Kz0hkVeDqafSoTunQmLqTqfTDDprrhRBA8kyvrRSQhe2dcUHA4")
             .setOAuthAccessToken("941447676176097280-DyXqo2VQm1Kna5Ex6iBIsxIggtr7Ibm")
