@@ -1,6 +1,9 @@
 package OperatorsAndTransformations;
+import org.omg.CORBA.OBJ_ADAPTER;
 import rx.Observable;
 import rx.Subscriber;
+
+import java.util.Arrays;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
@@ -34,7 +37,7 @@ public class FlatMapExample {
         //expect to see all emissions for the first element of the observable stream, but these get
         //intertwined with emissions for the second element
         //flatmap subscribes to the internal substreams
-        FlatMapExample flatMapExample=new FlatMapExample();
+        /*FlatMapExample flatMapExample=new FlatMapExample();
         Observable<String> out= Observable
             .just(DayOfWeek.SUNDAY, DayOfWeek.MONDAY)
             .flatMap(flatMapExample::loadRecordsFor);
@@ -73,6 +76,23 @@ public class FlatMapExample {
             }
         });
 
-        Thread.sleep(10000);
+        Thread.sleep(10000);*/
+
+        Observable<String> numbers=Observable.from(Arrays.asList("1","2","3","4","5","6","7","8"));
+        Observable<String> letters=Observable.from(Arrays.asList("h","i","j","k","l","m","n","o"));
+
+
+        Observable<String> letterArgument=Observable.create(string->System.out.println(string));
+
+        /*letters.flatMap(l->letters).map(l->l).subscribe(System.out::println);*/
+       /* numbers.flatMap(n->methodThatPassesArgumentToObservable(n)).subscribe(System.out::println);*/
+        //nested maps behave like nested for loops
+        numbers.flatMap(n->letters.map(l->l+n)).subscribe(System.out::println);
+        numbers.flatMap(n1->numbers.flatMap(n2->numbers.map(n3->n1+n2+n3))).subscribe(System.out::println);
+    }
+
+    public static Observable<String> methodThatPassesArgumentToObservable(String argument){
+        Observable<String> letterArgument=Observable.from(Arrays.asList("h","i","j","k","l","m","n","o")).map(e->e+argument);
+        return letterArgument;
     }
 }

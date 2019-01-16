@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9352347f-2e6d-4317-b36d-912fecfc4ee6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MergeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ScanExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipSynchronizationExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReactiveX.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ReactiveX.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapConcurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapConcurrency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample$DayOfWeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample$DayOfWeek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,12 +60,10 @@
       <file leaf-file-name="FlatMapExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="458">
+              <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1855#1856#0" expanded="true" />
-                <element signature="e#1908#1909#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,11 +81,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MergeExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
+            <state relative-caret-position="220">
+              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="34" column="99" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3100#3101#0" expanded="true" />
+                <element signature="e#3127#3128#0" expanded="true" />
+                <element signature="e#2450#2451#0" expanded="true" />
+                <element signature="e#2485#2486#0" expanded="true" />
+                <element signature="e#3354#3355#0" expanded="true" />
+                <element signature="e#3381#3382#0" expanded="true" />
+                <element signature="e#3763#3764#0" expanded="true" />
+                <element signature="e#3798#3799#0" expanded="true" />
+                <element signature="e#3519#3520#0" expanded="true" />
+                <element signature="e#3559#3560#0" expanded="true" />
+                <element signature="e#3978#3979#0" expanded="true" />
+                <element signature="e#4030#4031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipSynchronizationExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipSynchronizationExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="60" column="124" selection-start-line="60" selection-start-column="124" selection-end-line="60" selection-end-column="124" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScanExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ScanExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +144,8 @@
       <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/Observable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216810">
-              <caret line="10104" column="30" selection-start-line="10104" selection-start-column="30" selection-end-line="10104" selection-end-column="30" />
+            <state relative-caret-position="22">
+              <caret line="4128" column="48" selection-start-line="4128" selection-start-column="48" selection-end-line="4128" selection-end-column="48" />
               <folding>
                 <element signature="e#4227#4228#0" expanded="true" />
                 <element signature="e#4292#4293#0" expanded="true" />
@@ -181,9 +238,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FilterExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MapExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapConcurrency.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MergeExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipSynchronizationExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ScanExample.java" />
       </list>
     </option>
   </component>
@@ -288,29 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeExample">
-    <configuration name="FilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.FilterExample" />
-      <module name="ReactiveX" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OperatorsAndTransformations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FlatMapConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.FlatMapConcurrency" />
-      <module name="ReactiveX" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OperatorsAndTransformations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.ScanExample">
     <configuration name="FlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.FlatMapExample" />
       <module name="ReactiveX" />
@@ -327,8 +365,8 @@
       <module name="ReactiveX" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.MapExample" />
+    <configuration name="MergeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.MergeExample" />
       <module name="ReactiveX" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -338,8 +376,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MergeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.MergeExample" />
+    <configuration name="ScanExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.ScanExample" />
+      <module name="ReactiveX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OperatorsAndTransformations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ZipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.ZipExample" />
+      <module name="ReactiveX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OperatorsAndTransformations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ZipSynchronizationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.ZipSynchronizationExample" />
       <module name="ReactiveX" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -391,19 +451,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FilterExample" />
-      <item itemvalue="Application.MapExample" />
       <item itemvalue="Application.FlatMapExample" />
-      <item itemvalue="Application.FlatMapConcurrency" />
       <item itemvalue="Application.MergeExample" />
+      <item itemvalue="Application.ZipExample" />
+      <item itemvalue="Application.ZipSynchronizationExample" />
+      <item itemvalue="Application.ScanExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeExample" />
-        <item itemvalue="Application.FlatMapConcurrency" />
+        <item itemvalue="Application.ScanExample" />
+        <item itemvalue="Application.ZipSynchronizationExample" />
+        <item itemvalue="Application.ZipExample" />
         <item itemvalue="Application.FlatMapExample" />
-        <item itemvalue="Application.MapExample" />
-        <item itemvalue="Application.FilterExample" />
+        <item itemvalue="Application.MergeExample" />
       </list>
     </recent_temporary>
   </component>
@@ -449,12 +509,12 @@
       <workItem from="1547237538454" duration="4559000" />
       <workItem from="1547473085624" duration="13569000" />
       <workItem from="1547560466451" duration="7540000" />
-      <workItem from="1547645994851" duration="1943000" />
+      <workItem from="1547645994851" duration="19856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197584000" />
+    <option name="totallyTimeSpent" value="215497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -569,7 +629,7 @@
           <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="61" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -611,27 +671,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/functions/Func2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/functions/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/functions/Func0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -966,31 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216810">
-          <caret line="10104" column="30" selection-start-line="10104" selection-start-column="30" selection-end-line="10104" selection-end-column="30" />
-          <folding>
-            <element signature="e#4227#4228#0" expanded="true" />
-            <element signature="e#4292#4293#0" expanded="true" />
-            <element signature="e#6663#6664#0" expanded="true" />
-            <element signature="e#6725#6726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1855#1856#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapConcurrency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -1003,8 +1017,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MergeExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
+        <state relative-caret-position="220">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4128" column="48" selection-start-line="4128" selection-start-column="48" selection-end-line="4128" selection-end-column="48" />
+          <folding>
+            <element signature="e#4227#4228#0" expanded="true" />
+            <element signature="e#4292#4293#0" expanded="true" />
+            <element signature="e#6663#6664#0" expanded="true" />
+            <element signature="e#6725#6726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="34" column="99" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="e#2450#2451#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+            <element signature="e#3354#3355#0" expanded="true" />
+            <element signature="e#3381#3382#0" expanded="true" />
+            <element signature="e#3763#3764#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3519#3520#0" expanded="true" />
+            <element signature="e#3559#3560#0" expanded="true" />
+            <element signature="e#3978#3979#0" expanded="true" />
+            <element signature="e#4030#4031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipSynchronizationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="60" column="124" selection-start-line="60" selection-start-column="124" selection-end-line="60" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ScanExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
