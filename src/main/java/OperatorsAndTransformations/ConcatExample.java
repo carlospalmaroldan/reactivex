@@ -1,0 +1,71 @@
+package OperatorsAndTransformations;
+import rx.Observable;
+import org.apache.commons.lang3.tuple.Pair;
+
+import java.util.Arrays;
+
+import static java.util.concurrent.TimeUnit.MILLISECONDS;
+
+public class ConcatExample {
+
+    static Observable<String> speak(String quote, long millisPerChar) {
+        String[] tokens = quote.replaceAll("[:,]", "").split(" ");
+        Observable<String> words = Observable.from(tokens);
+        Observable<Long> absoluteDelay = words
+            .map(String::length)
+            .map(len -> len * millisPerChar)
+            .scan((total, current) -> total + current);
+        return words
+            .zipWith(absoluteDelay.startWith(0L), Pair::of)
+            .flatMap(pair -> Observable.just(pair.getLeft()).delay( pair.getRight(),MILLISECONDS));
+    }
+
+    public static void main(String[] args) throws InterruptedException{
+        /*Observable<String> words = Observable.from(Arrays.asList("Don't","ask","what","your","country"));
+        Observable<Long> absoluteDelay = words
+            .map(String::length)
+            .map(len -> len * 10).map(Integer::longValue)
+            .scan((total, current) -> total + current);
+         words.zipWith(absoluteDelay.startWith(0L), Pair::of)
+             .subscribe(System.out::println);*/
+
+
+
+
+
+        Observable<String> alice = speak(
+            "To be, or not to be: that is the question", 110);
+        Observable<String> bob = speak(
+            "Though this be madness, yet there is method in't", 90);
+        Observable<String> jane = speak(
+                        "There are more things in Heaven and Earth, " +
+                "Horatio, than are dreamt of in your philosophy", 100);
+
+
+        //merge subscribes right away to all the observables
+       /* Observable
+            .merge(
+                alice.map(w -> "Alice: " + w),
+                bob.map(w -> "Bob: " + w),
+                jane.map(w -> "Jane: " + w)
+            )
+            .subscribe(System.out::println);;
+*/
+
+       //concat starts emitting from an observable only when the previous one has finished its emissions
+        Observable
+            .concat(
+                alice.map(w -> "Alice: " + w),
+                bob.map(w -> "Bob: " + w),
+                jane.map(w -> "Jane: " + w)
+            )
+            .subscribe(System.out::println);
+
+
+        //this is important because when using delay, the action is performed in a different thread
+        Thread.sleep(20000);
+
+
+    }
+
+}

@@ -25,12 +25,6 @@ public class FilterExample {
             .setOAuthAccessTokenSecret("ibx9FjwmrnIesbpXzsWyWBRxbgCrNdxMrGvYzAKVqnZbz");
 
         Configuration configuration= configurationBuilder.build();
-        System.out.println(configuration.getLoggerFactory());
-        System.out.println(configuration.isDebugEnabled());
-        System.out.println(configuration.isDaemonEnabled());
-        System.out.println(configuration.getDispatcherImpl());
-        System.out.println(configuration.isJSONStoreEnabled());
-        System.out.println(configuration.getHttpClientConfiguration());
         TwitterStream twitterStream = new TwitterStreamFactory(configuration).getInstance();
         /*TwitterStream twitterStream = new TwitterStreamFactory().getInstance();*/
         return twitterStream;
