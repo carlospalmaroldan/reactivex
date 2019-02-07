@@ -3,8 +3,10 @@ import rx.Observable;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.Arrays;
+import java.util.Random;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
+import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class ConcatExample {
 
@@ -53,19 +55,38 @@ public class ConcatExample {
 */
 
        //concat starts emitting from an observable only when the previous one has finished its emissions
-        Observable
+        /*Observable
             .concat(
                 alice.map(w -> "Alice: " + w),
                 bob.map(w -> "Bob: " + w),
                 jane.map(w -> "Jane: " + w)
             )
+            .subscribe(System.out::println);*/
+
+
+
+        //we use just to create an observable from another one but with a delay
+        //the speak method allowed us to introduce a delay to every word spoken by a person, thus
+        //guaranteeing that they are emitted in the correct order
+        //Now on top of that we are adding a general delay to each one of the observables that model the speech
+        //of each person (the outer ones).
+        Random rnd = new Random();
+        Observable<Observable<String>> quotes = Observable.just(
+            alice.map(w -> "Alice: " + w),
+            bob.map(w -> "Bob: " + w),
+            jane.map(w -> "Jane: " + w))
+            .flatMap(innerObs -> Observable.just(innerObs)
+                .delay(rnd.nextInt(5), SECONDS));
+
+        //switchonNext subscribes to the first observable but when another one starts emitting it switches and abandons
+        //the former for the new
+        Observable
+            .switchOnNext(quotes)
             .subscribe(System.out::println);
 
 
         //this is important because when using delay, the action is performed in a different thread
         Thread.sleep(20000);
-
-
     }
 
 }

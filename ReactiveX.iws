@@ -2,135 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9352347f-2e6d-4317-b36d-912fecfc4ee6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ConcatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/DistinctExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ReduceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/TakeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactiveX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReactiveX.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/GroupedByExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/Persons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReactiveX.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/ReactiveX.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReactiveX.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ReactiveX.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FilterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FilterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ScanExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ScanExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ConcatExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ConcatExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ReactiveX.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ConcatExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ConcatExample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ReactiveX$GroupedByExample.ic" NAME="GroupedByExample Coverage Results" MODIFIED="1548261185003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>OperatorsAndTransformations.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/ReactiveX$Multithreaded.ic" NAME="Multithreaded Coverage Results" MODIFIED="1544028098713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DistinctExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/DistinctExample.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/GroupedByExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="290">
+              <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4313#4314#0" expanded="true" />
+                <element signature="e#4374#4375#0" expanded="true" />
+                <element signature="e#4460#4461#0" expanded="true" />
+                <element signature="e#4520#4521#0" expanded="true" />
+                <element signature="e#4600#4601#0" expanded="true" />
+                <element signature="e#4658#4659#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcatExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ConcatExample.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.jar!/rx/internal/operators/OperatorTakeWhile.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="54" column="104" selection-start-line="54" selection-start-column="104" selection-end-line="54" selection-end-column="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1030">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZipExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2228">
-              <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReduceExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ReduceExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScanExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ScanExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TakeExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/TakeExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlatMapExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="922">
-              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MapExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MergeExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlatMapConcurrency.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapConcurrency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="132">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.jar!/rx/internal/operators/OnSubscribeReduceSeed.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24376">
+              <caret line="1167" column="16" selection-start-line="1167" selection-start-column="16" selection-end-line="1167" selection-end-column="16" />
+              <folding>
+                <element signature="e#24298#24299#0" expanded="true" />
+                <element signature="e#24363#24364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="967" column="14" selection-start-line="967" selection-start-column="7" selection-end-line="967" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1012">
+              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1276">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/Persons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -160,23 +148,19 @@
       <find>getLan</find>
       <find>toString()</find>
       <find>subscribeOn</find>
+      <find>groupedByLanguage</find>
+      <find>Observable</find>
+      <find>mapKey</find>
+      <find>compute</find>
+      <find>output</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/workspace/Generics" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SentimentAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/RxFibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReactiveWareService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObjectWrapper.java" />
@@ -226,6 +210,8 @@
         <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/TakeExample.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ConcatExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/Persons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/GroupedByExample.java" />
       </list>
     </option>
   </component>
@@ -250,8 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,21 +259,6 @@
               <item name="ReactiveX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactiveX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactiveX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="OperatorsAndTransformations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactiveX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactiveX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -301,11 +270,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549553966268" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -334,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConcatExample">
+  <component name="RunManager" selected="Application.GroupedByExample">
     <configuration name="ConcatExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.ConcatExample" />
       <module name="ReactiveX" />
@@ -345,6 +316,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DistinctExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.DistinctExample" />
@@ -356,11 +330,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="InfiniteStreamsBlocking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InfiniteStreamsBlocking" />
+    <configuration name="GroupedByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.GroupedByExample" />
       <module name="ReactiveX" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OperatorsAndTransformations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.ReduceExample" />
@@ -372,17 +358,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="ScanExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.ScanExample" />
-      <module name="ReactiveX" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OperatorsAndTransformations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TakeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperatorsAndTransformations.TakeExample" />
@@ -394,62 +372,45 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ScanExample" />
       <item itemvalue="Application.ReduceExample" />
       <item itemvalue="Application.DistinctExample" />
       <item itemvalue="Application.TakeExample" />
       <item itemvalue="Application.ConcatExample" />
+      <item itemvalue="Application.GroupedByExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupedByExample" />
         <item itemvalue="Application.ConcatExample" />
         <item itemvalue="Application.TakeExample" />
         <item itemvalue="Application.DistinctExample" />
         <item itemvalue="Application.ReduceExample" />
-        <item itemvalue="Application.ScanExample" />
       </list>
     </recent_temporary>
   </component>
@@ -498,96 +459,90 @@
       <workItem from="1547645994851" duration="19856000" />
       <workItem from="1547733018566" duration="8098000" />
       <workItem from="1547817988408" duration="3822000" />
-      <workItem from="1548079239546" duration="10560000" />
+      <workItem from="1548079239546" duration="10755000" />
+      <workItem from="1548187697921" duration="7820000" />
+      <workItem from="1548251298351" duration="7862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237977000" />
+    <option name="totallyTimeSpent" value="253854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39869282" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3107676" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32995737" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="12" />
       <window_info id="Image Layers" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6383442" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32897604" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3109426" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.39869988" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39869282" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32897604" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/PropertyConfiguration.class</url>
-          <line>92</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7.jar!/twitter4j/TwitterStreamFactory.class</url>
           <line>29</line>
@@ -607,18 +562,6 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/PropertyConfiguration.class</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/PropertyConfiguration.class</url>
-          <line>111</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/DistinctExample.java</url>
           <line>90</line>
           <properties />
@@ -630,9 +573,25 @@
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/Observable.java</url>
+          <line>8289</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/GroupedByExample.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="64" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((String)((java.util.ArrayList)((HashMap.Node)output.entrySet().toArray()[2]).getValue()).get(0)).value" custom="java.util.HashMap.Node,java.lang.String,java.util.ArrayList" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -640,6 +599,31 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>output.entrySet.stream().map(x-&gt;x.getValue().size()).reduce((x,y)-&gt;x+y)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>output.entrySet.stream().map(x-&gt;x.getValue())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>output.entrySet</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>IntStream.range(0,output.size()).reduce(0,(number,element)-&gt;number=number+element.size())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>IntStream.range(0,output.size()).reduce(0,(number,element)-&gt;number=number+1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>this.getClass()</expression-string>
         <language-id>JAVA</language-id>
@@ -665,106 +649,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>resultsQueue</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>priorityQueue</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>concatString</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.2.RELEASE/spring-context-3.2.2.RELEASE.jar!/org/springframework/context/ApplicationListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Illegal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConnectableObservable/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/Status.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainLazyTwitterObservable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="69" lean-forward="true" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MultithreadedBlocking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TweetObservable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TwitterSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Multithreaded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConnectableObservable/TwitterExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LazyTwitterObservable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -772,35 +659,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7.jar!/twitter4j/StatusListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/ConfigurationBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6675">
-          <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7.jar!/twitter4j/StatusListener.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/ConfigurationBuilder.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MockLogger.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1021">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7.jar!/twitter4j/TwitterStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/Configuration.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7.jar!/twitter4j/TwitterStream.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/TwitterExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -808,82 +671,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/ConfigurationFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7.jar!/twitter4j/TwitterStreamFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#927#928#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/ConfigurationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/PropertyConfigurationFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/PropertyConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7-sources.jar!/twitter4j/TwitterStreamFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/conf/ConfigurationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/conf/ConfigurationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/conf/PropertyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/conf/PropertyConfigurationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/ConfigurationFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7.jar!/twitter4j/TwitterStreamFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/ConfigurationContext.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/PropertyConfigurationFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-stream/4.0.7/twitter4j-stream-4.0.7-sources.jar!/twitter4j/TwitterStreamFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/conf/ConfigurationContext.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/conf/ConfigurationFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/conf/PropertyConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/conf/PropertyConfigurationFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ConnectableObservableExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -905,13 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/StdOutLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7-sources.jar!/twitter4j/StdOutLogger.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -926,20 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1076">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/Pair.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -947,45 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/tuple/Pair.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5546" column="35" selection-start-line="5546" selection-start-column="35" selection-end-line="5546" selection-end-column="35" />
-          <folding>
-            <element signature="e#4227#4228#0" expanded="true" />
-            <element signature="e#4292#4293#0" expanded="true" />
-            <element signature="e#6663#6664#0" expanded="true" />
-            <element signature="e#6725#6726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FilterExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ZipSynchronizationExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="60" column="124" selection-start-line="60" selection-start-column="124" selection-end-line="60" selection-end-column="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,15 +735,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2228">
           <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ReduceExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="330">
           <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1011,15 +750,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ScanExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
+        <state relative-caret-position="418">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/TakeExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
+        <state relative-caret-position="858">
           <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MergeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FilterExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="66" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1028,49 +791,148 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/ConcatExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="54" column="104" selection-start-line="54" selection-start-column="104" selection-end-line="54" selection-end-column="104" />
+        <state relative-caret-position="240">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/observables/GroupedObservable.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/tuple/Pair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/DistinctExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="-794">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapConcurrency.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10-sources.jar!/rx/Observable.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.7/twitter4j-core-4.0.7.jar!/twitter4j/conf/PropertyConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="304">
+          <caret line="469" column="5" lean-forward="true" selection-start-line="469" selection-start-column="5" selection-end-line="469" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapExample.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Cloneable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="922">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="354">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.jar!/rx/functions/Func1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.jar!/rx/internal/operators/OnSubscribeReduceSeed.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24376">
+          <caret line="1167" column="16" selection-start-line="1167" selection-start-column="16" selection-end-line="1167" selection-end-column="16" />
+          <folding>
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MapExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="1012">
           <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/MergeExample.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="1276">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/Persons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.jar!/rx/Observable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1753" column="31" selection-start-line="1753" selection-start-column="31" selection-end-line="1753" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="967" column="14" selection-start-line="967" selection-start-column="7" selection-end-line="967" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/FlatMapConcurrency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.1.10/rxjava-1.1.10.jar!/rx/internal/operators/OperatorTakeWhile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorsAndTransformations/GroupedByExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4313#4314#0" expanded="true" />
+            <element signature="e#4374#4375#0" expanded="true" />
+            <element signature="e#4460#4461#0" expanded="true" />
+            <element signature="e#4520#4521#0" expanded="true" />
+            <element signature="e#4600#4601#0" expanded="true" />
+            <element signature="e#4658#4659#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,7 +953,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Invalid</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

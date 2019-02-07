@@ -10,9 +10,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="ReactiveX" target="1.8" />
+      <module name="ReactiveX" target="8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
