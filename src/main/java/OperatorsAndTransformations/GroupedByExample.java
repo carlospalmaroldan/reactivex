@@ -94,7 +94,7 @@ public class GroupedByExample {
         //The most important part here is that we can use an external data structure to hold the values that we found
         //from the source, the other thing is that we can use rather complex logic inside take while with a condition
         //related to said data structure
-        Map<String,List<String>>  outputMap=new HashMap<>();
+        /*Map<String,List<String>>  outputMap=new HashMap<>();
         List<String> approvedLanguages=Arrays.asList("ja","es","en","pt","ar","und","tr","fa","in","fr","pl","tl");
         observable.filter(status->approvedLanguages.contains(status.getLang()))
                 .takeWhile(status->{
@@ -115,6 +115,7 @@ public class GroupedByExample {
             @Override
             public void onCompleted() {
                 System.out.println("completed");
+                System.out.println(outputMap);
             }
 
             @Override
@@ -124,9 +125,9 @@ public class GroupedByExample {
 
             @Override
             public void onNext(Status status) {
-                System.out.println(outputMap);
+
             }
-        });
+        });*/
 
 
 
@@ -146,9 +147,41 @@ public class GroupedByExample {
 
 
 
-        //PRINT 100 TWEETS ON THE FIRST 10  LANGUAGES FOUND THEN DISCONNECT
+        //PRINT 10 TWEETS ON THE FIRST 10  LANGUAGES FOUND THEN DISCONNECT
+        Map<String,List<String>>  outputMap=new HashMap<>();
+        observable.takeWhile(status->{
+            List<String> list= outputMap.get(status.getLang());
 
+            if(list==null) {
+                if(outputMap.size()<10) {
+                    ArrayList<String> newList = new ArrayList<>();
+                    newList.add(status.getText());
+                    outputMap.put(status.getLang(), newList);
+                }
+            }else{
+                if(list.size()<10) {
+                    list.add(status.getText());
+                }
+            }
+            return outputMap.entrySet().stream().map(x->x.getValue().size()).reduce((x,y)->x+y).get()<100;
 
+        }).subscribe(new Subscriber<Status>() {
+            @Override
+            public void onCompleted() {
+                System.out.println("completed");
+                System.out.println(outputMap);
+            }
+
+            @Override
+            public void onError(Throwable throwable) {
+
+            }
+
+            @Override
+            public void onNext(Status status) {
+
+            }
+        });
 
 
 
