@@ -1,134 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ImperativeConcurrency.java" line="70" mnemonic="6" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9352347f-2e6d-4317-b36d-912fecfc4ee6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ImperativeConcurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactiveX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReactiveX.iml" afterDir="false" />
+    <list default="true" id="9352347f-2e6d-4317-b36d-912fecfc4ee6" name="Default" comment="Imperative concurrency">
       <change beforePath="$PROJECT_DIR$/ReactiveX.iws" beforeDir="false" afterPath="$PROJECT_DIR$/ReactiveX.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BackPressure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Caching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ComputeFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/Config$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/Config$Bar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/Config$Foo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/MainSpring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/TwitterExamples$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/TwitterExamples$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/TwitterExamples$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/TwitterExamples$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/TwitterExamples$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/TwitterExamples$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservable/TwitterExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservableExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservableExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservableExample$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConnectableObservableExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Delayed$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Delayed$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Delayed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DelayedUnsubscribe$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DelayedUnsubscribe$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DelayedUnsubscribe$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DelayedUnsubscribe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Illegal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfiniteStreams$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfiniteStreams$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfiniteStreams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfiniteStreamsBlocking$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InfiniteStreamsBlocking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LazyTwitterObservable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LazyTwitterObservable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainLazyTwitterObservable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainLazyTwitterObservable$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainLazyTwitterObservable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainMultipleSubscribers$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainMultipleSubscribers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainSubject$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainSubject$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultipleSubscribersTwitter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultipleSubscribersTwitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Multithreaded$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Multithreaded$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Multithreaded$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Multithreaded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultithreadedBlocking$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultithreadedBlocking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultithreadedObservablesClashing$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MultithreadedObservablesClashing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyStatusListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NaturalNumbersIterator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NaturalNumbersIterator$NaturalIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NaturalNumbersIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ObjectWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OnNextConcurrently$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OnNextConcurrently$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OnNextConcurrently.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ConcatExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/DistinctExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/DistinctExample$CellPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/DistinctExample$Haceb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/DistinctExample$Mabe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/DistinctExample$Refrigerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/DistinctExample$Samsung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/DistinctExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FilterExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapConcurrency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample$DayOfWeek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/FlatMapExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MapExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MapExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MapExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/MergeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ReduceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ScanExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/TakeExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/TakeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ZipExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ZipExample$City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ZipExample$Flight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ZipExample$Hotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ZipExample$Vacation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ZipExample$Weather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ZipExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperatorsAndTransformations/ZipSynchronizationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RxFibonacci$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RxFibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SentimentAnalyzer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SimpleThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SubscriberExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SubscriberExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SubscriberExample$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SubscriberExample$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SubscriberExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TweetObservable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TweetObservable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterExamples$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterExamples$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterExamples$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterExamples$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterExamples$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterExamples$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterObservable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterObservable$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterObservable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterSubject$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwitterSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ImperativeConcurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ImperativeConcurrency.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -162,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ComposingObservables.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -170,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ImperativeConcurrency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+            <state relative-caret-position="284">
+              <caret line="75" column="105" selection-start-line="75" selection-start-column="105" selection-end-line="75" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -412,14 +290,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551660066896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551661375509" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -618,6 +496,14 @@
       <workItem from="1548187697921" duration="7820000" />
       <workItem from="1548251298351" duration="7862000" />
     </task>
+    <task id="LOCAL-00001" summary="Imperative concurrency">
+      <created>1551660074351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551660074351</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -659,7 +545,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29449323" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29449323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -668,16 +554,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40520042" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4039088" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.16684724" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.32736155" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32736155" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -691,23 +577,48 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Maven" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29449323" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40520042" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.16684724" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32736155" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Imperative concurrency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imperative concurrency" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ImperativeConcurrency.java</url>
-          <line>52</line>
-          <properties class="ApplyingToExistingApplications.ImperativeConcurrency" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((String)((java.util.ArrayList)((HashMap.Node)output.entrySet().toArray()[2]).getValue()).get(0)).value" custom="java.util.HashMap.Node,java.lang.String,java.util.ArrayList" />
@@ -1019,7 +930,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ComposingObservables.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1032,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ApplyingToExistingApplications/ImperativeConcurrency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        <state relative-caret-position="284">
+          <caret line="75" column="105" selection-start-line="75" selection-start-column="105" selection-end-line="75" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
